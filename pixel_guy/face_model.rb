@@ -1,5 +1,10 @@
 SKIN_COLOR = Gosu::Color.new(255, 249, 202, 194)
 
+# Head attributes to consider:
+# - Width
+# - Height
+# - Color
+# - Shape? 
 class Head
 
   def initialize(size=5)
@@ -18,15 +23,32 @@ class Head
   end
 end
 
+# Eye attributes:
+# - Width
+# - Height
+# - Spacing between
+# - Vertical placement
+# - Color
+# - Shape?
 class Eyes
 end
 
+# Mouth attributes:
+# - Width
+# - Height
+# - Vertical placement
+# - Color?
+# - Shape?
 class Mouth
 end
 
+# Is it needed?
 class Nose
 end
 
+# Hair attributes:
+# - Style/shape
+# - Color
 class Hair
 end
 
